@@ -31,14 +31,14 @@ Usage
     $ p search tmux   # brew search tmux
 
 
-### RedHat, CentOS, Oracle Linux
+### RedHat, CentOS and Oracle Linux
 
     $ p install tmux  # sudo yum install tmux
     $ p update        # yum check-update
     $ p upgrade       # sudo yum update
     $ p search tmux   # yum search tmux
 
-### Debian
+### Debian, Ubuntu
 
     $ p install tmux  # sudo apt-get install tmux
     $ p update        # sudo apt-get update
