@@ -142,6 +142,6 @@ if [ Darwin = $(uname) ]; then
   osx $@
 elif [ -f /etc/debian_version ]; then
   debian $@
-elif [ -f /etc/redhat_release ]; then
+elif [ -f /etc/redhat-release ]; then
   redhat $@
 fi
