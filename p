@@ -7,25 +7,25 @@ bin_name=$(basename $0)
 
 # Display usage
 
-    usage() {
-      echo "Usage: $bin_name COMMAND [args]"
-      echo
-      echo 'Commands:'
-      echo '  update                # Retrieve new lists of packages'
-      echo '  outdated              # List package that have an updated version available'
-      echo '  installed <package>   # List all installed packages for package(or all install packages with no arguments)'
-      echo '  search <package>      # Search for package in all avairable packages'
-      echo '  info <package>        # Print info for package'
-      echo '  depends <package>     # List dpendencies for package'
-      echo '  install <package>     # Install new packages'
-      echo '  reinstall <package>   # ReInstall packages'
-      echo '  upgrade <package>     # Install newer version of outdated packages'
-      echo '  remove <package>      # Remove packages'
-      echo '  purge  <package>      # Remove packages and config files'
-      echo '  clean                 # Erase downloaded archive files'
-      echo '  autoclean             # Erase old downloaded archive files'
-      echo "  commands              # List '$bin_name' all commands"
-    }
+  usage() {
+    echo "Usage: $bin_name COMMAND [args]"
+    echo
+    echo 'Commands:'
+    echo '  update                # Retrieve new lists of packages'
+    echo '  outdated              # List package that have an updated version available'
+    echo '  installed <package>   # List all installed packages for package(or all install packages with no arguments)'
+    echo '  search <package>      # Search for package in all avairable packages'
+    echo '  info <package>        # Print info for package'
+    echo '  depends <package>     # List dpendencies for package'
+    echo '  install <package>     # Install new packages'
+    echo '  reinstall <package>   # ReInstall packages'
+    echo '  upgrade <package>     # Install newer version of outdated packages'
+    echo '  remove <package>      # Remove packages'
+    echo '  purge  <package>      # Remove packages and config files'
+    echo '  clean                 # Erase downloaded archive files'
+    echo '  autoclean             # Erase old downloaded archive files'
+    echo "  commands              # List '$bin_name' all commands"
+  }
 
 
 # For OSX: Homebrew
