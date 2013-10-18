@@ -63,7 +63,7 @@ bin_name=$(basename $0)
     case $command in
          update) yum check-update ;;
        outdated) yum check-update ;;
-      installed) repoquery -a $@ ;;
+      installed) repoquery --installed $@ ;;
          search) yum search $@ ;;
            info) yum info $@ ;;
         depends) yum deplist $@ ;;
